@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
 })
 export class ListaEstudantesComponent {
     tituloPagina: string = 'Lista de Estudantes';
-
+ 
     estudantes: any[] = [
       {
         "id": 1,
