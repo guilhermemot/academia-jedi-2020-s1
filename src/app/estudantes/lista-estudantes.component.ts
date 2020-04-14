@@ -10,7 +10,7 @@ export class ListaEstudantesComponent implements OnInit {
     larguraImagem: number = 50;
     margemImagem: number = 2;
     exibirImagem: boolean = false;
-    filtroLista: string = 'carrinho';
+    filtroLista: string = '';
 
     alturaMaxima: number;
     alturasEstudantes: number[];
